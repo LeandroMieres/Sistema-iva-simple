@@ -1,3 +1,5 @@
+Sistema Iva simple para fines educativos
+
 periodo:
 mes/año
 ej: 9/23
