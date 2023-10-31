@@ -1,0 +1,42 @@
+body {
+            font-family: Arial, sans-serif;
+            background-image: url('View/img/iva.jpg'); /* Ruta de la imagen de fondo */
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.9); /* Fondo del formulario con opacidad */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .form-container label, .form-container input {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .form-container button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            .form-container {
+                padding: 10px;
+            }
+        }
