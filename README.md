@@ -15,3 +15,13 @@ nd = Nota de credito
 
 Tipo de comprobante:
 a, b, c
+
+mejorar las consultas sql
+validar el login
+agregar los patterns
+verificar los inputs
+agregar sesiones de usuario
+mejorar los css
+
+
+
