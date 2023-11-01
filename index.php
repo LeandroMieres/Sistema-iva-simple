@@ -2,37 +2,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="View/Css/style.css">
-    <title>SISTEMA IVA - LOGIN</title>
+    <title>SISTEMA IVA</title>
+    <link rel="stylesheet" href="View/Css/index.css">
 </head>
 <body>
-    <div class="container">
-        <div class="form-container">
-            <div class="form-image">
-                <img src="View/img/iva.jpg" alt="Imagen de ejemplo">
-            </div>
-            <div class="form-content">
-                <h2>REGISTRO</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="Nombre">Nombre</label>
-                        <input type="text" id="Nombre" name="Nombre" >
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Correo Electrónico</label>
-                        <input type="email" id="Email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="mensaje">Contraseña</label>
-                        <input type="password" id="mensaje" name="Contraseña">
-                    </div>
-                    <div class="form-group">
-                        <a href="Dashboard.php">Enviar</a>
-                    </div>
-                </form>
-            </div>
+    <div class="split left">
+        <div class="centered">
+            <h2>60% para ingresar imagen</h2>
+            <p>SISTEMA IVA</p>
         </div>
     </div>
-</body>
+
+    <div class="split right">
+        <div class="centered">
+            <p>Registro</p>
+            <h2><a href="Login_in.php">Iniciar session</a></h2>
+            <h2><a href="Login_up.php">Registrate</a></h2>
+        </div>
+    </div>
 </html>
